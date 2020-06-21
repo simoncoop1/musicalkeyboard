@@ -7,4 +7,4 @@ A music keyboard, pressing keys produces sounds
 python3 music-kb.py
 ```
 
-now press a combination of q, w, or e for sounds. Lower notes to the left, higher notes to the right.
+now press a combination of 'qwertyuiop' keys for notes. Lower notes to the left, higher notes to the right. Bonus content 'asd'
