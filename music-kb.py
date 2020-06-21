@@ -51,14 +51,54 @@ def main(win):
            win.addstr(str(key)) 
            ##call a sound
            if key == 'q':
-               thread = threading.Thread(target=dostuffthread, args=("sound1.wav",))
+               thread = threading.Thread(target=dostuffthread, args=("1.wav",))
                thread.daemon = True                            # Daemonize thread
                thread.start() 
            if key == 'w':
-               thread = threading.Thread(target=dostuffthread, args=("sound2.wav",))
+               thread = threading.Thread(target=dostuffthread, args=("2.wav",))
                thread.daemon = True                            # Daemonize thread
                thread.start()                 
            if key == 'e':
+               thread = threading.Thread(target=dostuffthread, args=("3.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'r':
+               thread = threading.Thread(target=dostuffthread, args=("4.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start() 
+           if key == 't':
+               thread = threading.Thread(target=dostuffthread, args=("5.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'y':
+               thread = threading.Thread(target=dostuffthread, args=("6.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'u':
+               thread = threading.Thread(target=dostuffthread, args=("7.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'i':
+               thread = threading.Thread(target=dostuffthread, args=("8.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'o':
+               thread = threading.Thread(target=dostuffthread, args=("9.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'p':
+               thread = threading.Thread(target=dostuffthread, args=("10.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'a':
+               thread = threading.Thread(target=dostuffthread, args=("sound1.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 's':
+               thread = threading.Thread(target=dostuffthread, args=("sound2.wav",))
+               thread.daemon = True                            # Daemonize thread
+               thread.start()
+           if key == 'd':
                thread = threading.Thread(target=dostuffthread, args=("sound3.wav",))
                thread.daemon = True                            # Daemonize thread
                thread.start()
